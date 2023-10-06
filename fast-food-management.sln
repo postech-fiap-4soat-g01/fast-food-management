@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodManagement.Api", "src\FastFoodManagement.Api\FastFoodManagement.Api.csproj", "{6AE02629-862C-4FEE-9D69-CAEEC4029CFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ports", "Ports", "{7D3D1C8B-D192-4C4C-9177-1CC21FF11709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A773BD93-740F-4998-8459-B919CF3526DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2AFBB58B-9AA1-45ED-9E6A-FA595B4A8726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B9C9B8C8-6AD9-4C0C-84BD-24F0B5B5DBC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E1AD6AB1-7C43-4EC3-AD2D-DC0169B85B06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodManagement.Domain", "src\FastFoodManagement.Domain\FastFoodManagement.Domain.csproj", "{501A8186-D18E-4060-AACC-61D920C25461}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodManagement.IoC", "src\FastFoodManagement.IoC\FastFoodManagement.IoC.csproj", "{D23A7384-4B03-4C70-93F5-B2880F7962F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFoodManagement.Tests", "src\FastFoodManagement.Tests\FastFoodManagement.Tests.csproj", "{6A93CAC4-A63D-4273-9448-947B3DA68158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D47A7995-6ED9-45D2-8DBA-ED5BE5268815}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		src\FastFoodManagement.Api\Dockerfile = src\FastFoodManagement.Api\Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A5E7D09-478C-4859-BFDF-87CDA44F4827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{098B4418-3EDB-4A16-96EC-B07E9FB5D7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFoodManagement.Application", "src\FastFoodManagement.Application\FastFoodManagement.Application.csproj", "{B509041C-256F-4869-A155-38A5C74D15CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFoodManagement.Infrastructure", "src\FastFoodManagement.Infrastructure\FastFoodManagement.Infrastructure.csproj", "{373E3078-B759-4074-B86B-2DCD5AAD73B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AE02629-862C-4FEE-9D69-CAEEC4029CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE02629-862C-4FEE-9D69-CAEEC4029CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE02629-862C-4FEE-9D69-CAEEC4029CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE02629-862C-4FEE-9D69-CAEEC4029CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501A8186-D18E-4060-AACC-61D920C25461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501A8186-D18E-4060-AACC-61D920C25461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501A8186-D18E-4060-AACC-61D920C25461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501A8186-D18E-4060-AACC-61D920C25461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23A7384-4B03-4C70-93F5-B2880F7962F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23A7384-4B03-4C70-93F5-B2880F7962F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23A7384-4B03-4C70-93F5-B2880F7962F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23A7384-4B03-4C70-93F5-B2880F7962F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A93CAC4-A63D-4273-9448-947B3DA68158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A93CAC4-A63D-4273-9448-947B3DA68158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A93CAC4-A63D-4273-9448-947B3DA68158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A93CAC4-A63D-4273-9448-947B3DA68158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B509041C-256F-4869-A155-38A5C74D15CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B509041C-256F-4869-A155-38A5C74D15CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B509041C-256F-4869-A155-38A5C74D15CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B509041C-256F-4869-A155-38A5C74D15CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373E3078-B759-4074-B86B-2DCD5AAD73B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373E3078-B759-4074-B86B-2DCD5AAD73B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373E3078-B759-4074-B86B-2DCD5AAD73B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373E3078-B759-4074-B86B-2DCD5AAD73B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AE02629-862C-4FEE-9D69-CAEEC4029CFF} = {7D3D1C8B-D192-4C4C-9177-1CC21FF11709}
+		{7D3D1C8B-D192-4C4C-9177-1CC21FF11709} = {1A5E7D09-478C-4859-BFDF-87CDA44F4827}
+		{A773BD93-740F-4998-8459-B919CF3526DF} = {1A5E7D09-478C-4859-BFDF-87CDA44F4827}
+		{2AFBB58B-9AA1-45ED-9E6A-FA595B4A8726} = {1A5E7D09-478C-4859-BFDF-87CDA44F4827}
+		{B9C9B8C8-6AD9-4C0C-84BD-24F0B5B5DBC1} = {1A5E7D09-478C-4859-BFDF-87CDA44F4827}
+		{E1AD6AB1-7C43-4EC3-AD2D-DC0169B85B06} = {1A5E7D09-478C-4859-BFDF-87CDA44F4827}
+		{501A8186-D18E-4060-AACC-61D920C25461} = {A773BD93-740F-4998-8459-B919CF3526DF}
+		{D23A7384-4B03-4C70-93F5-B2880F7962F8} = {E1AD6AB1-7C43-4EC3-AD2D-DC0169B85B06}
+		{6A93CAC4-A63D-4273-9448-947B3DA68158} = {B9C9B8C8-6AD9-4C0C-84BD-24F0B5B5DBC1}
+		{098B4418-3EDB-4A16-96EC-B07E9FB5D7AB} = {1A5E7D09-478C-4859-BFDF-87CDA44F4827}
+		{B509041C-256F-4869-A155-38A5C74D15CB} = {098B4418-3EDB-4A16-96EC-B07E9FB5D7AB}
+		{373E3078-B759-4074-B86B-2DCD5AAD73B3} = {E1AD6AB1-7C43-4EC3-AD2D-DC0169B85B06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {365D1A10-9215-4B35-A972-7C06521A8EFD}
+	EndGlobalSection
+EndGlobal
